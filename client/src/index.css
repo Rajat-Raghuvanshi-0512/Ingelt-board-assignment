@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.form-container {
+  box-shadow: 0px 4px 50px 0px rgba(13, 25, 72, 0.12);
+}
+.detail-card {
+  box-shadow: 0px 4px 60px 0px rgba(13, 25, 72, 0.44);
+  backdrop-filter: blur(25px);
+}
+
+.blue-purple-gradient {
+  background: linear-gradient(135deg, #001e43 0%, #570169 100%);
+}
+
+.services-card {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.03) 0%,
+    rgba(255, 255, 255, 0.03) 100%
+  );
+  backdrop-filter: blur(25px);
+}
+
+.contact-form {
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+}
